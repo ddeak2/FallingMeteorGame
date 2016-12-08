@@ -14,6 +14,7 @@
 		EB4869451CC62CCD00BB68C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4869441CC62CCD00BB68C2 /* Assets.xcassets */; };
 		EB4869481CC62CCD00BB68C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4869461CC62CCD00BB68C2 /* LaunchScreen.storyboard */; };
 		EB4869531CC62CCD00BB68C2 /* TimeToPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4869521CC62CCD00BB68C2 /* TimeToPlayTests.m */; };
+		EB48695E1CC62D0A00BB68C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48695D1CC62D0A00BB68C2 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EB48694E1CC62CCD00BB68C2 /* TimeToPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeToPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4869521CC62CCD00BB68C2 /* TimeToPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeToPlayTests.m; sourceTree = "<group>"; };
 		EB4869541CC62CCD00BB68C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB48695D1CC62D0A00BB68C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB48695E1CC62D0A00BB68C2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		EB48692C1CC62CCD00BB68C2 = {
 			isa = PBXGroup;
 			children = (
+				EB48695D1CC62D0A00BB68C2 /* QuartzCore.framework */,
 				EB4869371CC62CCD00BB68C2 /* TimeToPlay */,
 				EB4869511CC62CCD00BB68C2 /* TimeToPlayTests */,
 				EB4869361CC62CCD00BB68C2 /* Products */,
